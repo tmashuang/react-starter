@@ -1,0 +1,43 @@
+{
+  "name": "react-starter",
+  "version": "0.0.1",
+  "description": "react starter kit, maybe redux too",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server -d --config webpack.config.js --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmashuang/react-starter.git"
+  },
+  "author": "Thomas Huang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmashuang/react-starter/issues"
+  },
+  "homepage": "https://github.com/tmashuang/react-starter#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.25.0",
+    "express": "^4.14.0",
+    "file-loader": "^0.9.0",
+    "react-dom": "^15.3.1",
+    "react-redux": "^4.4.5",
+    "react-tap-event-plugin": "^1.0.0",
+    "redux": "^3.6.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.2"
+  },
+  "devDependencies": {
+    "webpack-dev-middleware": "^1.7.0",
+    "webpack-hot-middleware": "^2.12.2"
+  }
+}
